@@ -2,13 +2,16 @@
 int main(){
     int idade, peso;
     float altura, imc;
-    char nome[10];    
+    char nome[10], sobrenome[20];    
     
     printf("\n Digite seu nome:");
     fflush(stdin);
     scanf("%s", nome);
 
-    printf("\n Seja bem vindo(a) %s", nome);
+    printf(" Digite seu sobrenome:");
+    scanf("%s", sobrenome);
+
+    printf("\n Seja bem vindo(a) %s %s", nome, sobrenome);
 
     printf("\n Digite a idade: ");
     fflush(stdin);
@@ -26,14 +29,14 @@ int main(){
 
     printf("\n---------------------------------------------------");
 
-    printf("\n Nome: %s", nome);
+    printf("\n Nome: %s %s", nome, sobrenome);
     printf("\n Idade: %d", idade);
     printf("\n Peso: %d", peso);
-    printf("\n Altura: %f", altura);
+    printf("\n Altura: %0.2f", altura);
 
     printf("\n---------------------------------------------------");
 
-    printf("\n IMC: %f", imc);
+    printf("\n IMC: %.3f", imc);
 
     printf("\n---------------------------------------------------");
     
