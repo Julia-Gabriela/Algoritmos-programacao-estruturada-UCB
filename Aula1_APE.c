@@ -36,4 +36,6 @@ int main()
     printf("\nUltimo salario: %0.3f", salario);
  
   printf("\n---------------------------------------------");
+  
+
 }
