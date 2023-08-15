@@ -2,7 +2,7 @@
 int main(){
 
     float a, b, ad, sub, mul, div;
-    int num;
+    int opcao;
 
     printf("\n digite um numero: ");
     scanf("%f", &a);
@@ -11,9 +11,9 @@ int main(){
     scanf("%f", &b);
 
     printf("\n digite:\n 1 para adicao: \n 2 para subtracao: \n 3 para multiplicacao \n 4 para divisao \n ");
-    scanf("%d", &num);
+    scanf("%d", &opcao);
 
-    switch(num)
+    switch(opcao)
     {
         case 1:
             ad = a+b;
