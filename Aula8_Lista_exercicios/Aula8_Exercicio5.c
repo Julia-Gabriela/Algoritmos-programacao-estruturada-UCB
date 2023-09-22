@@ -12,7 +12,7 @@ double a, b, c, delta, x1, x2;
         x1 = (-b + sqrt(delta))/(2*a);
         x2 = (-b - sqrt(delta))/(2*a);
 
-    printf("Delta: %lf", delta);
+    printf("Delta: %lf\n", delta);
         if (delta<0){
         printf("ERRO, delta menor que 0");
         }
