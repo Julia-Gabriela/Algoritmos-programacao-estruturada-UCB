@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "e:/julia/Documents/catolica/1_Semestre/Algoritmos-programacao-estruturada-UCB",
-      "program": "e:/julia/Documents/catolica/1_Semestre/Algoritmos-programacao-estruturada-UCB/build/Debug/outDebug",
+      "cwd": "e:/julia/Documents/UCB/1_Semestre/Algoritmos-programacao-estruturada-UCB/Aula11_APE",
+      "program": "e:/julia/Documents/UCB/1_Semestre/Algoritmos-programacao-estruturada-UCB/Aula11_APE/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
