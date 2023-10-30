@@ -2,7 +2,7 @@
 
 int main()
 {
-    int i, certo = 0, errado = 0;
+    int certo = 0, errado = 0;
     char questao;
 
     {
