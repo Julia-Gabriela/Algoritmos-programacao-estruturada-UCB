@@ -3,15 +3,13 @@
 
 int main()
 {
-    int  i = 0 ,num;
-        
-        printf("Digite um numero inteiro e positivo:\n");
-        scanf("%d", &num);
+    int i = 0, num;
+
+    printf("Digite um numero inteiro e positivo:\n");
+    scanf("%d", &num);
     do
-    { 
-        num--; 
+    {
+        num--;
         printf("%d\n", num);
     } while (num != 1);
-        
-        
 }

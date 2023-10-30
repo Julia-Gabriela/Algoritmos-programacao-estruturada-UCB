@@ -9,9 +9,8 @@ int main()
     {
         printf("Digite um numero inteiro e positivo:\n");
         scanf("%d", &num);
-        i+= num ;
-        
-    } while (num != 0);
-        printf("A soma dos numeros e igual a %d", i);
+        i += num;
 
+    } while (num != 0);
+    printf("A soma dos numeros e igual a %d", i);
 }

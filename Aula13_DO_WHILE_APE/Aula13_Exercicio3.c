@@ -26,7 +26,7 @@ int main()
         }
         printf("%d\n", numAleatorio);
     } while (num != numAleatorio && i <= 15);
-    
+
     if (i == 5 && num != numAleatorio)
     {
         printf("------------------------------------------\n");

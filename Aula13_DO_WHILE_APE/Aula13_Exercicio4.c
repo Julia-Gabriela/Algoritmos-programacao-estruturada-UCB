@@ -8,13 +8,12 @@ int main()
     {
         printf("Digite um numero inteiro e positivo:\n");
         scanf("%d", &num);
-        if (num <=0)
+        if (num <= 0)
         {
             printf("ERRO!!!!\n");
         }
     } while (num <= 0);
-        
-        
+
     do
     {
         fatorial *= i;
