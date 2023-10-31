@@ -51,7 +51,7 @@ int main()
             }
         break;
 
-        // Calculadora de IMC
+        // Calculadora de IMC 
         case 2:
             printf("Digite Seu peso e altura\n");
             scanf("%lf %lf", &peso, &altura);
