@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-
+void clearScreen()
+{
+    system("clear");
+}
 #define N 30
-
-
-
 struct Pessoa
 {
     int idade;
@@ -16,7 +16,7 @@ typedef struct Pessoa Pessoa;
 int main()
 {
    
-    Pessoa pessoa = {0, 0.0, "Victor Goncalves"};
+    Pessoa pessoa = {0, 0.0, "Victor Zerefos"};
 
     int n = sizeof(pessoa.nome) /
             sizeof(pessoa.nome[0]); // le o tamanho do meu arraydinamicamante
