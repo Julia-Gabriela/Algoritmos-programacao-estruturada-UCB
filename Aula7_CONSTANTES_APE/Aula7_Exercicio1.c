@@ -20,4 +20,6 @@ int main()
         printf("Multiplicacao: %d\n", mult);
         printf("Divisao: %d\n", div);
         printf("Resto da divisao: %d\n", resto);
+
+        
 }
